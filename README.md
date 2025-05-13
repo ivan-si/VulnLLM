@@ -1,11 +1,11 @@
-# vulnLLM 🛡️  
+# vulnLLM 🛡
 **An LLM-based System for Detecting Code Vulnerabilities**
 
 vulnLLM is a fine-tuned large language model designed to detect security vulnerabilities in Python source code. Built on top of InternLM2.5 and Phi3.5, this system combines deep learning with software security practices to enable early detection of unsafe code patterns.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **LLM-based Vulnerability Detection**: Built on InternLM2.5 (1.8B and 7B Chat variants), fine-tuned with real-world vulnerable and secure code samples.
 - **Custom Classifier Head**: Added on top of the base model to output binary vulnerability labels.
@@ -15,7 +15,7 @@ vulnLLM is a fine-tuned large language model designed to detect security vulnera
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - Base: InternLM2.5 1.8B/7B Chat
 - Fine-tuning: Supervised classification with `func_clean` → `vulnerability` (0 or 1)
@@ -23,7 +23,7 @@ vulnLLM is a fine-tuned large language model designed to detect security vulnera
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Split        | # Samples |
 |--------------|-----------|
